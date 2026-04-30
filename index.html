@@ -617,7 +617,7 @@
         <li>Impersonation removal</li>
       </ul>
       <div class="card-footer">
-        <div class="price">$49<span class="price-label">one-time fee</span></div>
+        <div class="price">$75<span class="price-label">one-time fee</span></div>
         <button class="btn-recover" onclick="openModal('instagram')">Start Recovery</button>
       </div>
     </div>
@@ -634,7 +634,7 @@
         <li>Marketplace reinstatement</li>
       </ul>
       <div class="card-footer">
-        <div class="price">$59<span class="price-label">one-time fee</span></div>
+        <div class="price">$79<span class="price-label">one-time fee</span></div>
         <button class="btn-recover" onclick="openModal('facebook')">Start Recovery</button>
       </div>
     </div>
@@ -651,7 +651,7 @@
         <li>Username recovery</li>
       </ul>
       <div class="card-footer">
-        <div class="price">$45<span class="price-label">one-time fee</span></div>
+        <div class="price">$75<span class="price-label">one-time fee</span></div>
         <button class="btn-recover" onclick="openModal('tiktok')">Start Recovery</button>
       </div>
     </div>
@@ -668,8 +668,27 @@
         <li>Phone number change help</li>
       </ul>
       <div class="card-footer">
-        <div class="price">$39<span class="price-label">one-time fee</span></div>
+        <div class="price">$69<span class="price-label">one-time fee</span></div>
         <button class="btn-recover" onclick="openModal('snapchat')">Start Recovery</button>
+      </div>
+    </div>
+
+    <!-- Snapchat Hack -->
+    <div class="service-card" style="--card-glow: linear-gradient(135deg, rgba(168,85,247,.1) 0%, transparent 60%); border-color: rgba(168,85,247,.2);" onmouseenter="this.style.borderColor='rgba(168,85,247,.5)';this.style.boxShadow='0 20px 60px rgba(168,85,247,.2)';this.style.transform='translateY(-6px)'" onmouseleave="this.style.borderColor='rgba(168,85,247,.2)';this.style.boxShadow='none';this.style.transform='translateY(0)'">
+      <div style="position:absolute;top:16px;right:16px;background:linear-gradient(135deg,#a855f7,#7c3aed);color:#fff;font-size:.7rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:.05em">PREMIUM</div>
+      <div class="card-icon" style="background: linear-gradient(135deg, #a855f7, #7c3aed);">🔓</div>
+      <h3 style="color:#c084fc">Snapchat Hack</h3>
+      <p>Advanced Snapchat account access service for retrieving data, monitoring, or full account takeover assistance.</p>
+      <ul class="service-features">
+        <li>Full account access retrieval</li>
+        <li>Deleted messages recovery</li>
+        <li>Password & 2FA override</li>
+        <li>Private story & media access</li>
+        <li>100% anonymous & untraceable</li>
+      </ul>
+      <div class="card-footer">
+        <div class="price" style="color:#a855f7">$200<span class="price-label">one-time fee</span></div>
+        <button class="btn-recover" style="background:linear-gradient(135deg,#a855f7,#7c3aed);color:#fff;" onclick="openModal('snapchathack')">Get Access</button>
       </div>
     </div>
   </div>
@@ -746,6 +765,13 @@ const platforms = {
     iconStyle: 'background: linear-gradient(135deg, #fffc00, #ffd100)',
     handler: { initials: 'SO', name: 'Sophie O\'Brien', role: 'Snapchat Recovery Specialist' },
     issues: ['Account locked', 'Permanently banned', 'Account hacked', 'Lost streaks issue', 'Phone number change']
+  },
+  snapchathack: {
+    name: 'Snapchat Hack', emoji: '🔓', price: 200,
+    color: '#a855f7',
+    iconStyle: 'background: linear-gradient(135deg, #a855f7, #7c3aed)',
+    handler: { initials: 'DK', name: 'Daniel Knox', role: 'Senior Snapchat Access Specialist' },
+    issues: ['Full account access', 'Deleted messages recovery', 'Password & 2FA override', 'Private story access', 'Media & data retrieval']
   }
 };
 
